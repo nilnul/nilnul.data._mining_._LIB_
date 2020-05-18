@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -41,10 +41,10 @@
       <HintPath>..\..\(packages)\DocumentFormat.OpenXml.2.10.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\..\(packages)\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\..\(packages)\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="johnHurliman.math._calculus_._LIB_, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\johnHurliman.math._calculus_._LIB_.1.0.1\lib\net46\johnHurliman.math._calculus_._LIB_.dll</HintPath>
@@ -67,8 +67,8 @@
     <Reference Include="nilnul.blob_._excel_._LIB_, Version=1.0.7413.1826, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul.blob_._excel_._LIB_.1.0.7413.1826\lib\net472\nilnul.blob_._excel_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.0.7431.27244, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul.geometry._planar_._LIB_.1.0.7431.27244\lib\net472\nilnul.geometry._planar_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.0.7441.1091, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.geometry._planar_._LIB_.1.0.7441.1091\lib\net472\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.math._calculus_._LIB_, Version=1.0.6756.4458, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul.math._calculus_._LIB_.1.0.6756.4458\lib\net46\nilnul.math._calculus_._LIB_.dll</HintPath>
@@ -82,11 +82,11 @@
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.0.7423.19709, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul.num._integer_._LIB_.1.0.7423.19709\lib\net472\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num._quotient_._LIB_, Version=1.0.7426.32758, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul.num._quotient_._LIB_.1.0.7426.32758\lib\net472\nilnul.num._quotient_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num._quotient_._LIB_, Version=1.0.7442.2557, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num._quotient_._LIB_.1.0.7442.2557\lib\net472\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num._real_._LIB_, Version=2.0.7426.36735, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul.num._real_._LIB_.2.0.7426.36735\lib\net472\nilnul.num._real_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num._real_._LIB_, Version=2.0.7441.43171, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num._real_._LIB_.2.0.7441.43171\lib\net472\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.rel._graph_._LIB_, Version=1.0.7414.41588, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul.rel._graph_._LIB_.1.0.7414.41588\lib\net472\nilnul.rel._graph_._LIB_.dll</HintPath>
@@ -103,8 +103,8 @@
     <Reference Include="nilnul._bit_._LIB_, Version=1.0.7342.33919, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._bit_._LIB_.1.0.7342.33919\lib\net472\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._character_._LIB_, Version=2.0.7315.3356, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._character_._LIB_.2.0.7315.3356\lib\net472\nilnul._character_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._character_._LIB_, Version=2.0.7433.34403, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._character_._LIB_.2.0.7433.34403\lib\net472\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._data_._LIB_, Version=1.0.7403.39320, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._data_._LIB_.1.0.7403.39320\lib\net472\nilnul._data_._LIB_.dll</HintPath>
@@ -115,8 +115,8 @@
     <Reference Include="nilnul._email_._LIB_, Version=1.0.7409.22727, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._email_._LIB_.1.0.7409.22727\lib\net472\nilnul._email_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._fs_._LIB_, Version=2.0.7430.31238, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.0.7430.31238\lib\net472\nilnul._fs_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._fs_._LIB_, Version=2.0.7438.22113, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.0.7438.22113\lib\net472\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._geometry_._LIB_, Version=1.0.7426.37735, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._geometry_._LIB_.1.0.7426.37735\lib\net472\nilnul._geometry_._LIB_.dll</HintPath>
@@ -133,32 +133,32 @@
     <Reference Include="nilnul._linq_._LIB_, Version=1.0.6928.36726, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._linq_._LIB_.1.0.6928.36726\lib\net46\nilnul._linq_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._num_._LIB_, Version=1.0.7426.36708, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._num_._LIB_.1.0.7426.36708\lib\net472\nilnul._num_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._num_._LIB_, Version=1.0.7442.25783, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._num_._LIB_.1.0.7442.25783\lib\net472\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._num_._LINQ_, Version=1.0.7426.36699, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._num_._LINQ_.1.0.7426.36699\lib\net472\nilnul._num_._LINQ_.dll</HintPath>
+    <Reference Include="nilnul._num_._LINQ_, Version=1.0.7441.42818, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._num_._LINQ_.1.0.7441.42818\lib\net472\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._obj_._LIB_, Version=1.0.7419.26835, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._obj_._LIB_.1.0.7419.26835\lib\net472\nilnul._obj_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._obj_._LIB_, Version=1.0.7439.28543, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._obj_._LIB_.1.0.7439.28543\lib\net472\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.0.7420.36598, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._rel_._LIB_.1.0.7420.36598\lib\net472\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._set_._LIB_, Version=1.0.7422.21361, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._set_._LIB_.1.0.7422.21361\lib\net472\nilnul._set_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._set_._LIB_, Version=1.0.7442.42317, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._set_._LIB_.1.0.7442.42317\lib\net472\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._stat_._LIB_, Version=1.0.7410.39252, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._stat_._LIB_.1.0.7410.39252\lib\net472\nilnul._stat_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._stat_._LIB_, Version=1.0.7442.3223, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._stat_._LIB_.1.0.7442.3223\lib\net472\nilnul._stat_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.0.7282.35571, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._time_._LIB_.1.0.7282.35571\lib\net472\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._txt_._LIB_, Version=1.0.7430.27944, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._txt_._LIB_.1.0.7430.27944\lib\net472\nilnul._txt_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._txt_._LIB_, Version=1.0.7442.25865, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._txt_._LIB_.1.0.7442.25865\lib\net472\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._web_._LIB_, Version=1.0.7428.30357, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._web_._LIB_.1.0.7428.30357\lib\net472\nilnul._web_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._web_._LIB_, Version=1.0.7438.23342, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._web_._LIB_.1.0.7438.23342\lib\net472\nilnul._web_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.0.7419.24365, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._win_._LIB_.1.0.7419.24365\lib\net472\nilnul._win_._LIB_.dll</HintPath>
@@ -206,14 +206,16 @@
     <Reference Include="_nilnul_._CFG_, Version=1.0.7272.42050, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\_nilnul_._CFG_.1.0.7272.42050\lib\net46\_nilnul_._CFG_.dll</HintPath>
     </Reference>
-    <Reference Include="_nilnul_._LIB_, Version=1.0.7272.42138, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\_nilnul_._LIB_.1.0.7272.42138\lib\net472\_nilnul_._LIB_.dll</HintPath>
+    <Reference Include="_nilnul_._LIB_, Version=1.0.7440.30211, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\_nilnul_._LIB_.1.0.7440.30211\lib\net472\_nilnul_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="_nilnul_._LINQ_, Version=1.0.7272.42226, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\_nilnul_._LINQ_.1.0.7272.42226\lib\net46\_nilnul_._LINQ_.dll</HintPath>
+    <Reference Include="_nilnul_._LINQ_, Version=1.0.7439.20870, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\_nilnul_._LINQ_.1.0.7439.20870\lib\net46\_nilnul_._LINQ_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="associater_\apriori_\ValTxt.cs" />
+    <Compile Include="associater_\apriori_\_txtItem\Observation.cs" />
     <Compile Include="classifier_\Treed.cs" />
     <Compile Include="classifier_\_treed\Ret.cs" />
     <Compile Include="classifier_\_treed\TrainSet.cs" />
@@ -231,6 +233,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="_associater\Association.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -251,8 +254,8 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.props'))" />
-    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
   </Target>
-  <Import Project="..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\..\(packages)\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+  <Import Project="..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets')" />
 </Project>
